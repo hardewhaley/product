@@ -1,0 +1,79 @@
+[
+    {
+        "id": "1",
+        "name": "Snug World", 
+        "price": 120, 
+        "image": "images/hat.png",
+        "available": "Sold",
+        "button": "Add to Cart",
+        "rating": "3"
+
+    },
+    {
+        "id": "2",
+        "name": "High Fashion", 
+        "price": 200, 
+        "image": "images/shirt.png",
+        "available": "Out of stock",
+        "button": "Add to Cart",
+        "rating": "4"
+    },
+    {
+        "id": "3",
+        "name": "OffThug", 
+        "price": 320, 
+        "image": "images/trouser.png",
+        "available": "Available",
+        "button": "Add to Cart",
+        "rating": "5"
+    },
+    {
+        "id": "4",
+       "name": "Watch", 
+        "price": 400, 
+        "image": "images/watch.webp",
+         "available": "Sold",
+         "button": "Add to Cart",
+         "rating": "2"
+
+    },
+     {
+        "id": "5",
+        "name": "Snug World", 
+        "price": 120, 
+        "image": "images/hat.png",
+        "available": "Sold",
+        "button": "Add to Cart",
+        "rating": "1"
+
+    },
+    {
+        "id": "6",
+        "name": "High Fashion", 
+        "price": 200, 
+        "image": "images/shirt.png",
+        "available": "Out of stock",
+        "button": "Add to Cart",
+        "rating": "4"
+    },
+    {
+        "id": "7",
+        "name": "OffThug", 
+        "price": 320, 
+        "image": "images/trouser.png",
+        "available": "Available",
+        "button": "Add to Cart",
+        "rating": "4"
+    },
+    {
+        "id": "8",
+       "name": "Watch", 
+        "price": 400, 
+        "image": "images/watch.webp",
+         "available": "Sold",
+         "button": "Add to Cart",
+         "rating": "5"
+
+    }
+    
+]
