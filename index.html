@@ -3,58 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add to Cart</title>
+    <title>PRODUCT</title>
     <link rel="stylesheet" href="product.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-     <div>
-        <i class="fa-solid fa-moon moon-icon" id="icon"></i>
-     </div>
-    <div class="cart-container">
-        <div style="padding: 40px;">
-            <p class="shop"><i class="fa-solid fa-cart-shopping shop"></i> Your Cart</p>
-            
-            <div class="table-res">
-                <table>
-                    <thead>
-                        <th style="width: 50%;">Product</th>
-                        <th style="width: 20%;">Price</th>
-                        <th style="width: 10%;">Quantity</th>
-                        <th style="width: 10%;">Total</th>
-                        <th style="width: 10%;">Remove</th>
-                    </thead>
-                    <tbody id="cartItems">
-                        <!-- <tr>
-                            <td class="cart-info">
-                                <img src="images/hat.png" alt="hat">
-                                <span>Snug World</span>
-                            </td>
-                            <td>
-                                $120
-                            </td>
-                            <td>
-                                <button class="qty-btn">-</button>
-                                <span> 1 </span>
-                                <button class="qty-btn">+</button>
-                            </td>
-                            <td>$120</td>
-                            <td>
-                                <button class="delete-btn">Remove</button>
-                            </td>
-                        </tr> -->
-                    </tbody>
-                </table>
 
-            </div>
-            <div class="cart-footer">
-                <h3>Total: $<span id="grandTotal">0</span></h3>
-                <a href="Pay.html" target="_blank"><button class="check-btn">Proceed to checkout</button></a>
-    
-            </div>
-    
-        </div>
-        </div>
+    <div>
+        <i class="fa-solid fa-moon moon-icon" id="icon"></i>
+    </div>
+    <div class="pro">
+        <a href="check.html" target="_blank" class="add">Cart<span><i class="fa-solid fa-cart-shopping"></i></span></a>
+        <h1>Our Product</h1>
+    </div>
+    <div id="productList">
+    </div>
 </body>
-<script src="check.js"></script>
+<script src="product.js"></script>
 </html>
